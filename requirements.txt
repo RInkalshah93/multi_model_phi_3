@@ -1,0 +1,24 @@
+bitsandbytes==0.43.3
+clip @ git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1
+colorama==0.4.6
+datasets==3.0.0
+dill==0.3.8
+multiprocess==0.70.16
+numpy==1.26.4
+pandas==2.2.2
+peft==0.12.0
+shtab==1.7.1
+tokenizers==0.19.1
+torch==2.4.1
+torchvision==0.19.1
+tqdm==4.66.5
+transformers==4.44.2
+treelib==1.7.0
+trl==0.10.1
+typing_extensions==4.12.2
+tyro==0.8.10
+tzdata==2024.1
+urllib3==2.2.3
+wcwidth==0.2.13
+xxhash==3.5.0
+yarl==1.11.1
