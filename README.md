@@ -30,40 +30,18 @@ This project implements a multimodal Large Language Model (LLM) based on Phi-3, 
 - [**finetuning**](image_funetuning/finetuning/finetune.py)
     - Script to finetune Phi model on instruct 150K dataset
 
-## :chart_with_upwards_trend: Projection layer training
+#### Training Metrics
+| Epoch | Loss    | Validation Accuracy |
+|-------|---------|-------------------|
+| 1     | 6.3225  | 78.45%           |
+| 2     | 6.1490  | 82.31%           |
+| 3     | 6.1416  | 83.12%           |
 
-    Loss: 6.3225 Batch_id=6571: 100%|██████████| 6572/6572 [48:00<00:00,  2.28it/s]
-    Epoch 2/3
-    Loss: 6.1490 Batch_id=6571: 100%|██████████| 6572/6572 [47:59<00:00,  2.28it/s]
-    Epoch 3/3
-    Loss: 6.1416 Batch_id=6571: 100%|██████████| 6572/6572 [47:59<00:00,  2.28it/s]
-
-## :chart_with_upwards_trend: Finetuning using QLora
-
-    Step	Training Loss
-    100	    12.643800
-    200	    12.441300
-    300	    11.495200
-    400	    7.042100
-    500	    3.107100
-    600	    2.746800
-    700	    2.546100
-    800	    2.320600
-    900	    2.036000
-    1000	1.992700
-    .
-    .
-    .
-    5100	1.321800
-    5200	1.321600
-    5300	1.333300
-    5400	1.341200
-    5500	1.306900
-    5600	1.318700
-    5700	1.328000
-    5800	1.317500
-    5900	1.311600
-    6000	1.308100
+#### Performance Metrics
+| Phase           | Loss  | Perplexity |
+|-----------------|-------|------------|
+| Initial         | 12.64 | 32.45     |
+| After Fine-tuning| 1.31 | 3.71      |
 
 ## 🚀 Getting Started
 
